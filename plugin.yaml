@@ -1,0 +1,5 @@
+name: "getdullpods"
+shortDesc: "Dull pods shows all pods containing non-ready container"
+longDesc: >
+  Dull pods shows all pods containing non-ready container from the current namespace by age.
+command: ./readypods.sh
