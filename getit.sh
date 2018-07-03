@@ -1,3 +1,5 @@
+#!/bin/bash -x
+
 VERSION=1.0
 
 mkdir -p ~/.kube/plugins
