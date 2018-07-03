@@ -6,6 +6,8 @@ curl -Ls https://github.com/schaefec/unreadypods/archive/${VERSION}.tar.gz | tar
 
 mv ~/plugins/unreadypods-$VERSION ~/plugins/unreadypods
 
+chmod 755 ~/plugins/unreadypods/readypods.sh
+
 echo "Done"
 echo ""
 echo "Try it out with:"
