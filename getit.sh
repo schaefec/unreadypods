@@ -4,7 +4,7 @@ mkdir -p ~/plugins/unreadypods
 
 curl -Ls https://github.com/schaefec/unreadypods/archive/${VERSION}.tar.gz | tar -C ~/.kube/plugins -zxf -
 
-mv ~/plugins/unreadypods-$VERSION ~/plugins/unreadypods
+mv ~/.kube/plugins/unreadypods-$VERSION ~/.kube/plugins/unreadypods
 
 chmod 755 ~/plugins/unreadypods/readypods.sh
 
