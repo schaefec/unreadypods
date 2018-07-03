@@ -1,6 +1,6 @@
 VERSION=1.0
 
-mkdir -p ~/plugins/unreadypods
+mkdir -p ~/.kube/plugins/unreadypods
 
 curl -Ls https://github.com/schaefec/unreadypods/archive/${VERSION}.tar.gz | tar -C ~/.kube/plugins -zxf -
 
