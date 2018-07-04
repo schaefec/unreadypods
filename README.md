@@ -20,3 +20,20 @@ The problem with kubectl is, that it is hard to detect that there is one contain
 So I decided to implement the tiny command which can be used to show all PODs which are not ready, meaningm, there is at least one container that is not ready. Thanks to kubernetes plugins I don't have to implement a whole CLI myself.
 
 ## How to install
+
+Just run:
+
+```
+bash <(curl -s https://unreadypods.opsb.rocks/getit.sh)
+```
+
+As a result you should see:
+
+```
+Done
+
+Try it out with:
+
+          kubectl plugin unreadypods
+
+```
