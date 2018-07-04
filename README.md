@@ -15,7 +15,7 @@ kube-system   l7-default-backend-57856c5f55-nx7mm                   1/1       Ru
 kube-system   metrics-server-v0.2.1-7f8dd98c8f-bf4zp                2/2       Running   0          4m
 ```
 
-The problem with kubectl is, that it is hard to detect that there is one container within the POD ```kube-dns-5dcfcbf5fb-6x59h``` that is not ready. This is indicated by ```3/4``` in the ```READY```` column. This is hard to see, right;).
+The problem with kubectl is, that it is hard to detect that there is one container within the POD ```kube-dns-5dcfcbf5fb-6x59h``` that is not ready. This is indicated by ```3/4``` in the ```READY``` column. This is hard to see, right;).
 
 So I decided to implement the tiny command which can be used to show all PODs which are not ready, meaningm, there is at least one container that is not ready. Thanks to kubernetes plugins I don't have to implement a whole CLI myself.
 
